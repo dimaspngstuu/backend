@@ -40,10 +40,8 @@ class Animal
 $animal = new Animal(["ayam","ikan","kecoa"]);
 
 
-
 $animal->index();
 echo "<br>";
-
 
 $animal->store("burung");
 $animal->index();
